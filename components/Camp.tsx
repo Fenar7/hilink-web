@@ -9,7 +9,8 @@ interface CampProps{
 
 const CampSite = ({backgroundImage, title, subtitle, peopleJoined}:CampProps) =>{
   return(
-    <div className={`h-full w-full min-w-[1100px] ${backgroundImage}`}>Camsite</div>
+    <div className={`h-full w-full min-w-[1100px] ${backgroundImage}
+    bg-cover bg-no-repeat lg:rounded-r-5x1 2x1:rounded-5x1`}>Camsite</div>
   )
 }
 

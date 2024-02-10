@@ -1,0 +1,6 @@
+.travel-card{
+    border-radius: 2.5rem;
+    @media(max-width: 500px){
+        border-radius: 0rem;
+    }
+}

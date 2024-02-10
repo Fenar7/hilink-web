@@ -1,0 +1,8 @@
+.travel-card {
+  border-radius: 2.5rem;
+}
+@media (max-width: 500px) {
+  .travel-card {
+    border-radius: 0rem;
+  }
+}/*# sourceMappingURL=card.css.map */
